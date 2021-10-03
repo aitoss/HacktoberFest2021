@@ -14,24 +14,21 @@ struct Node {
 	}
 };
 
-
-/* Given a binary tree, print its nodes in inorder*/
-void printInorder(struct Node* node)
+/* Given a binary tree, print its nodes in preorder*/
+void printPreorder(struct Node* node)
 {
 	if (node == NULL)
 		return;
 
-	/* first recur on left child */
-	printInorder(node->left);
-
-	/* then print the data of node */
+	/* first print data of node */
 	cout << node->data << " ";
 
-	/* now recur on right child */
-	printInorder(node->right);
+	/* then recur on left subtree */
+	printPreorder(node->left);
+
+	/* now recur on right subtree */
+	printPreorder(node->right);
 }
-
-
 
 /* Driver program to test above functions*/
 int main()
