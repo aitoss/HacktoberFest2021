@@ -1,0 +1,53 @@
+const participants = [
+    {
+        "name": "AIT-OSS",
+        "img": "https://avatars3.githubusercontent.com/u/47062438?s=400&u=ab4cb37695763efe4297b2da4b7f97cd8f6f888b&v=4",
+        "title": "Organizer",
+        "year": "BE - 2022",
+        "linkedIn": "https://www.linkedin.com/company/open-source-software-club/",
+        "github": "https://github.com/aitoss",
+        "skills": ['All Open Source Technologies'],
+        "description": "A student driven Open Source Community at AIT, Pune."
+    },
+    {
+        "name": "Kumari Palak",
+        "img": "https://avatars.githubusercontent.com/u/54790525?s=400&u=d29cc10e71229700b65ddbe13e0c102aa5096211&v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/kumaripalak/",
+        "github": "https://github.com/Palak-137",
+       
+    },
+   
+]
+
+function loadParticipants() {
+    participants.forEach((participant) => {
+       
+
+        const profileCard = `
+            <div class="box">
+            <div class="top-bar"></div>
+            <div class="top">
+                <i class="fa fa-heart heart" aria-hidden="true"></i>
+                <input type="checkbox" class="heart-btn" id="heart-btn-1">
+               
+            </div>
+            <div class="content">
+                <img src=${participant.img || 'https://cdn.discordapp.com/attachments/805682248816001036/894220525600145428/default-profile-pic.png'}
+                    alt="">
+                <strong>${participant.name}</strong>
+                <p>${participant.year}</p>
+            </div>
+            <div class="btn">
+                <a href="${participant.linkedIn}"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+                <a href="${participant.github}"><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+            </div>
+
+        </div>
+        `;
+
+        $(".outer-div").append(profileCard);
+    })
+}
+
+loadParticipants();
