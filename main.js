@@ -15,7 +15,13 @@ const participants = [
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/kumaripalak/",
         "github": "https://github.com/Palak-137",
-       
+    },
+    {
+        "name": "Snehasis Sahoo",
+        "img": "https://avatars.githubusercontent.com/u/54761358?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/kazukilapislazuli/",
+        "github": "https://github.com/kazukilapislazuli",
     },
    
 ]
@@ -33,7 +39,7 @@ function loadParticipants() {
                
             </div>
             <div class="content">
-                <img src=${participant.img || 'https://cdn.discordapp.com/attachments/805682248816001036/894220525600145428/default-profile-pic.png'}
+                <img src=${participant.img || 'https://i.ibb.co/dKnX0Kx/default-profile-pic.png'}
                     alt="">
                 <strong>${participant.name}</strong>
                 <p>${participant.year}</p>
