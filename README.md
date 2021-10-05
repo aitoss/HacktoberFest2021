@@ -73,5 +73,5 @@ Download git from https://git-scm.com/downloads
 2. [Rishabh Rathore](https://github.com/xerycks)
 3. [Snehasis sahoo](https://github.com/kazukilapislazuli)
 4. [Rohit Kumar](https://github.com/The-Fuse)
-5.[Vivek Singh](https://github.com/thevkscode)
-6.[Nirmit Gupta](https://github.com/Nirmit1910)
+5. [Vivek Singh](https://github.com/thevkscode)
+6. [Nirmit Gupta](https://github.com/Nirmit1910)
