@@ -17,7 +17,7 @@
         };
 
 *****************************************************************/
-
+//Contributed by Vivek Singh
 int length(Node *head){
     if(head==NULL)
         return 0;

@@ -20,7 +20,7 @@ To explain it further, you need to start printing the data from the tail
         };
 
 *****************************************************************/
-
+//Contributed by Vivek Singh
 void printReverse(Node *head)
 {
   if(head==NULL)

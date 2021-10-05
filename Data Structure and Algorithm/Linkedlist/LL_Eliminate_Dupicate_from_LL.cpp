@@ -20,7 +20,7 @@
         };
 
 *****************************************************************/
-
+//Contributed by Vivek Singh
 Node *removeDuplicates(Node *head)
 {if(head==NULL)
     return head;
