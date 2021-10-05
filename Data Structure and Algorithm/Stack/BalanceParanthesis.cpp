@@ -1,4 +1,5 @@
 // CPP program to check for balanced brackets.
+//contributed by Vivek Singh
 #include <bits/stdc++.h>
 using namespace std;
 
