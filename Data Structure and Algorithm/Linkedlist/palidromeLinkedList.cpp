@@ -1,3 +1,5 @@
+/*Check if a Linked list is palindrome or not*/
+//Contributed by Vivek Singh
 #include <bits/stdc++.h>
 
 using namespace std;
