@@ -30,6 +30,13 @@ const participants = [
         "linkedIn": "https://www.linkedin.com/in/rohitkumar-yadav/",
         "github": "https://github.com/The-Fuse",
     },
+    {
+        "name": "Mohammad Kaif Siddique",
+        "img": "https://avatars.githubusercontent.com/MoKaif",
+        "year": "BE - 2024",
+        "linkedIn": "https://www.linkedin.com/in/mokaif/",
+        "github": "https://github.com/MoKaif",
+    },
 ]
 
 function loadParticipants() {
