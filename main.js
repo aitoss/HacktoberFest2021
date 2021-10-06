@@ -23,7 +23,13 @@ const participants = [
         "linkedIn": "https://www.linkedin.com/in/kazukilapislazuli/",
         "github": "https://github.com/kazukilapislazuli",
     },
-   
+    {
+        "name": "Rohit Kumar",
+        "img": "https://avatars.githubusercontent.com/u/54764235?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/rohitkumar-yadav/",
+        "github": "https://github.com/The-Fuse",
+    },
 ]
 
 function loadParticipants() {
