@@ -38,6 +38,12 @@ const participants = [
         "github": "https://github.com/MoKaif",
     },
     {
+        "name": "Sachin choudhary",
+        "img": "https://avatars.githubusercontent.com/u/54989437?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/sachin-choudhary-7037381a9/",
+        "github": "https://github.com/sachin-611",
+    },
         "name": "Ankit Gadhwal",
         "img": "https://avatars.githubusercontent.com/u/60103160?v=4",
         "year": "BE - 2023",
