@@ -49,6 +49,12 @@ const participants = [
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/ankit-gadhwal-a9451b18b/",
         "github": "https://github.com/Ankit-123-123",
+    },
+    {   "name": "Saurav Singh Rauthan",
+        "img": "https://avatars.githubusercontent.com/u/54982868?s=400&u=d89f494492572f108f6d1668f53cfd195f68182e&v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/saurav-singh-rauthan-87141918b/",
+        "github": "https://github.com/Saurav-Singh-Rauthan",
     }
 ]
 

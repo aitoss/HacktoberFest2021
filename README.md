@@ -75,3 +75,4 @@ Download git from https://git-scm.com/downloads
 4. [Rohit Kumar](https://github.com/The-Fuse)
 5. [Vivek Singh](https://github.com/thevkscode)
 6. [Nirmit Gupta](https://github.com/Nirmit1910)
+7. [Saurav Singh Rauthan](https://github.com/Saurav-Singh-Rauthan)
