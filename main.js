@@ -38,6 +38,13 @@ const participants = [
         "github": "https://github.com/Akashsaxena2308",
     },
     {
+        "name": "Vishal singh",
+        "img": "https://avatars.githubusercontent.com/u/76548939?v=4",
+        "year": "BE - 2024",
+        "linkedIn": "https://www.linkedin.com/in/impetus007/",
+        "github": "https://github.com/impetus007",
+    },
+    {
         "name": "Mohammad Kaif Siddique",
         "img": "https://avatars.githubusercontent.com/MoKaif",
         "year": "BE - 2024",
