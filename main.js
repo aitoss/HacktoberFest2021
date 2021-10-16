@@ -31,6 +31,13 @@ const participants = [
         "github": "https://github.com/The-Fuse",
     },
     {
+        "name": "Akash Saxena",
+        "img": "https://avatars.githubusercontent.com/u/54790554?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/akashsaxena2308/",
+        "github": "https://github.com/Akashsaxena2308",
+    },
+    {
         "name": "Mohammad Kaif Siddique",
         "img": "https://avatars.githubusercontent.com/MoKaif",
         "year": "BE - 2024",
