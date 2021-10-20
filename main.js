@@ -58,23 +58,34 @@ const participants = [
         "linkedIn": "https://www.linkedin.com/in/sachin-choudhary-7037381a9/",
         "github": "https://github.com/sachin-611",
     },
-    {   "name": "Ankit Gadhwal",
+    {
+        "name": "Ankit Gadhwal",
         "img": "https://avatars.githubusercontent.com/u/60103160?v=4",
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/ankit-gadhwal-a9451b18b/",
         "github": "https://github.com/Ankit-123-123",
     },
-    {   "name": "Saurav Singh Rauthan",
+    {
+        "name": "Saurav Singh Rauthan",
         "img": "https://avatars.githubusercontent.com/u/54982868?s=400&u=d89f494492572f108f6d1668f53cfd195f68182e&v=4",
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/saurav-singh-rauthan-87141918b/",
         "github": "https://github.com/Saurav-Singh-Rauthan",
+    },
+
+    {
+        "name": "Yash Madhav Nerkar",
+        "img": "https://avatars.githubusercontent.com/u/65919365?s=400&u=26573aa587df6ccb58f721b8bcd9f5b1fd260288&v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/yash-n12/",
+        "github": "https://github.com/yash-png",
     }
-]
+    
+];
 
 function loadParticipants() {
     participants.forEach((participant) => {
-       
+
 
         const profileCard = `
             <div class="box">
@@ -99,7 +110,7 @@ function loadParticipants() {
         `;
 
         $(".outer-div").append(profileCard);
-    })
+    });
 }
 
 loadParticipants();
