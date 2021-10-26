@@ -28,8 +28,8 @@ Explanation : Lets divide the string into following ways:
 using namespace std;
 int main(){
     // input
-    string str;
-    cin>>str;
+    string s;
+    cin>>s;
 
     /* using 2 maps, so that in first can map all the characters, and then by second map, we can check if both strings have same density or both maps have same size */
 
@@ -45,7 +45,7 @@ int main(){
         if(m1.size()==m2.size())count++;
     }
     
-    cout<<"count of the ways string habe good split :- " <<count<<endl;
+    cout<<"count of the ways string have good split :- " <<count<<endl;
     return 0;
     
 
