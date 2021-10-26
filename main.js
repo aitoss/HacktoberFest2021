@@ -69,7 +69,15 @@ const participants = [
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/saurav-singh-rauthan-87141918b/",
         "github": "https://github.com/Saurav-Singh-Rauthan",
+    },
+    {
+        "name": "Shivangi Chauhan",
+        "img": "https://avatars.githubusercontent.com/u/62792560?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/shivangi-chauhan-57919a191/",
+        "github": "https://github.com/Flaming-Phoenix24",
     }
+
 ]
 
 function loadParticipants() {
