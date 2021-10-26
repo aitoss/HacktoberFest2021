@@ -44,17 +44,25 @@ const participants = [
         "linkedIn": "https://www.linkedin.com/in/sachin-choudhary-7037381a9/",
         "github": "https://github.com/sachin-611",
     },
-    {   "name": "Ankit Gadhwal",
+    {
+        "name": "Ankit Gadhwal",
         "img": "https://avatars.githubusercontent.com/u/60103160?v=4",
         "year": "BE - 2023",
         "linkedIn": "https://www.linkedin.com/in/ankit-gadhwal-a9451b18b/",
         "github": "https://github.com/Ankit-123-123",
-    }
+    },
+    {
+        "name": "Shivangi Chauhan",
+        "img": "https://avatars.githubusercontent.com/u/62792560?v=4",
+        "year": "BE - 2023",
+        "linkedIn": "https://www.linkedin.com/in/shivangi-chauhan-57919a191/",
+        "github": "https://github.com/Flaming-Phoenix24",
+    },
 ]
 
 function loadParticipants() {
     participants.forEach((participant) => {
-       
+
 
         const profileCard = `
             <div class="box">
